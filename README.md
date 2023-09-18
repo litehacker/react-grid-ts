@@ -1,10 +1,16 @@
-# Getting Started with Create React App
+# A grid game boilerplate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Purpose
 
-## Available Scripts
+The idea behind this small project is to have a reason to use optimized version of React Hooks (useCallBack, useMemo, React.memo) in order to:
 
-In the project directory, you can run:
+- **React.memo** - not rerender unchanged tiny components.  
+- **useCallBack** - prevent memoized components to be updated if they have functions passed.  
+- **useMemo** - save time to not recalculate the pure functions (was not implemented well in particular example).  
+
+Grid is a good way to imitate over performance issues and practice.
+
+## Instalation
 
 ### `npm start`
 
